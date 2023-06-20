@@ -32,6 +32,6 @@ struct ButtonsView: View {
 
 struct ButtonsView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonsView(gameManager: GameManager(), showAlert: .constant(false))
+        ButtonsView(gameManager: GameManager(), showAlert: .constant(true))
     }
 }
