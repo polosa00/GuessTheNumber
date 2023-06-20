@@ -1,5 +1,5 @@
 //
-//  CastomSliderView.swift
+//  CustomSliderView.swift
 //  GuessTheNumber
 //
 //  Created by Александр Полочанин on 20.06.23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CastomSliderView: View {
+struct CustomSliderView: View {
     
     @ObservedObject var gameManager: GameManager
     
@@ -29,6 +29,6 @@ struct CastomSliderView: View {
 
 struct CastomSliderView_Previews: PreviewProvider {
     static var previews: some View {
-        CastomSliderView(gameManager: GameManager())
+        CustomSliderView(gameManager: GameManager())
     }
 }

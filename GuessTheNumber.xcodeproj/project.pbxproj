@@ -12,7 +12,7 @@
 		11BD99712A40E66900DBAF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BD99702A40E66900DBAF02 /* Assets.xcassets */; };
 		11BD99742A40E66900DBAF02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BD99732A40E66900DBAF02 /* Preview Assets.xcassets */; };
 		11BD99812A41BFDF00DBAF02 /* UISliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD99802A41BFDF00DBAF02 /* UISliderRepresentation.swift */; };
-		11BD99832A41CDEB00DBAF02 /* CastomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD99822A41CDEB00DBAF02 /* CastomSliderView.swift */; };
+		11BD99832A41CDEB00DBAF02 /* CustomSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD99822A41CDEB00DBAF02 /* CustomSliderView.swift */; };
 		11BD99872A41CE8C00DBAF02 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD99862A41CE8C00DBAF02 /* GameManager.swift */; };
 		11BD99892A41D7AA00DBAF02 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BD99882A41D7AA00DBAF02 /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 		11BD99702A40E66900DBAF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BD99732A40E66900DBAF02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11BD99802A41BFDF00DBAF02 /* UISliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderRepresentation.swift; sourceTree = "<group>"; };
-		11BD99822A41CDEB00DBAF02 /* CastomSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastomSliderView.swift; sourceTree = "<group>"; };
+		11BD99822A41CDEB00DBAF02 /* CustomSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderView.swift; sourceTree = "<group>"; };
 		11BD99862A41CE8C00DBAF02 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		11BD99882A41D7AA00DBAF02 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 				11BD99802A41BFDF00DBAF02 /* UISliderRepresentation.swift */,
 				11BD996E2A40E66800DBAF02 /* ContentView.swift */,
 				11BD99882A41D7AA00DBAF02 /* ButtonsView.swift */,
-				11BD99822A41CDEB00DBAF02 /* CastomSliderView.swift */,
+				11BD99822A41CDEB00DBAF02 /* CustomSliderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +184,7 @@
 				11BD99892A41D7AA00DBAF02 /* ButtonsView.swift in Sources */,
 				11BD99812A41BFDF00DBAF02 /* UISliderRepresentation.swift in Sources */,
 				11BD996F2A40E66800DBAF02 /* ContentView.swift in Sources */,
-				11BD99832A41CDEB00DBAF02 /* CastomSliderView.swift in Sources */,
+				11BD99832A41CDEB00DBAF02 /* CustomSliderView.swift in Sources */,
 				11BD996D2A40E66800DBAF02 /* GuessTheNumberApp.swift in Sources */,
 				11BD99872A41CE8C00DBAF02 /* GameManager.swift in Sources */,
 			);

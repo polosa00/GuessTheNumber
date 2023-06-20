@@ -14,11 +14,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            CastomSliderView(gameManager: gameManager)
+            CustomSliderView(gameManager: gameManager)
             ButtonsView(gameManager: gameManager,showAlert: $showAlert)
         }
     }
-  
 }
 
 struct ContentView_Previews: PreviewProvider {
